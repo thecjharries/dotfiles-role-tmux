@@ -1,0 +1,11 @@
+---
+needed_packages:
+  - gcc
+  - make
+  - autoconf
+  - automake
+  - pkg-config
+  - libevent
+  - libevent-devel
+  - ncurses
+  - ncurses-devel
