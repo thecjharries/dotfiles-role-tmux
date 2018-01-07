@@ -1,7 +1,5 @@
 # `dotfiles-role-tmux`
-# `dotfiles-role-tmux`
 
-[![Build Status](https://travis-ci.org/thecjharries/dotfiles-role-tmux.svg?branch=master)](https://travis-ci.org/thecjharries/dotfiles-role-tmux)
 [![Build Status](https://travis-ci.org/thecjharries/dotfiles-role-tmux.svg?branch=master)](https://travis-ci.org/thecjharries/dotfiles-role-tmux)
 
 ## Requirements
@@ -43,14 +41,9 @@ needed_packages:
 ```yml
 ---
 - src: git+https://github.com/thecjharries/dotfiles-role-common-software.git
-- src: git+https://github.com/thecjharries/dotfiles-role-common-software.git
-- src: git+https://github.com/thecjharries/dotfiles-role-package-installer.git
 - src: git+https://github.com/thecjharries/dotfiles-role-package-installer.git
 - src: git+https://github.com/thecjharries/dotfiles-role-generic-template.git
-- src: git+https://github.com/thecjharries/dotfiles-role-generic-template.git
 - src: git+https://github.com/thecjharries/dotfiles-role-git.git
-- src: git+https://github.com/thecjharries/dotfiles-role-git.git
-- src: git+https://github.com/thecjharries/dotfiles-role-repo-installer.git
 - src: git+https://github.com/thecjharries/dotfiles-role-repo-installer.git
 ```
 
@@ -61,7 +54,6 @@ needed_packages:
 - hosts: all
 
   roles:
-    - role: dotfiles-role-tmux
     - role: dotfiles-role-tmux
 ```
 
