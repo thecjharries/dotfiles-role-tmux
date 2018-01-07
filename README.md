@@ -1,6 +1,7 @@
 # `dotfiles-role-tmux`
 
 [![Build Status](https://travis-ci.org/thecjharries/dotfiles-role-tmux.svg?branch=master)](https://travis-ci.org/thecjharries/dotfiles-role-tmux)
+[![GitHub release](https://img.shields.io/github/release/thecjharries/dotfiles-role-tmux.svg)](https://github.com/thecjharries/dotfiles-role-tmux)
 
 ## Requirements
 
