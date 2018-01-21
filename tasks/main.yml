@@ -6,6 +6,7 @@
     remote_url: https://github.com/tmux/tmux
     src_path: "{{ tmux_src_path }}"
 
+# Included roles can't notify parent handlers
 - name: "Trigger handler"
   command: /bin/true
   no_log: yes
@@ -13,6 +14,8 @@
   when: repo_update|changed
   changed_when: true
   notify: "rebuild tmux"
+  tags:
+    - skip_ansible_lint
 
 - name: "Check tpm"
   include_role:
